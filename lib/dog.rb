@@ -1,9 +1,12 @@
 class Dog
 # Why is this initiater breaking the test
-#  def initialize(dogName)
-#    @name = dogName
-#  end
+  def initialize(dogName)
+    @name = dogName
+  end
   
+  def initialize
+    @name
+  end
   def name=(dogName)
     @name = dogName
   end
